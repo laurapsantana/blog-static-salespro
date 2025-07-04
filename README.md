@@ -11,12 +11,24 @@ Este projeto é um blog estático criado com **Next.js** e publicado no **Amazon
 ## 📁 Estrutura do Projeto
 
 ```
-blog-static/
+/BLOG-STATIC/ 
+├── .next
+├── node -modules
+├── out
 ├── pages/
-│   └── index.js
-├── package.json
+│   ├── index.js
+│   └── posts/
+│       └── deploy-na-aws.js
+├── styles/  
+│   └── Home.module.css
+.gitignore
+arquitetura.png
+DOCUMENTACAO.md
+
 ├── next.config.js
-└── out/ (gerado com `npm run build`)
+├── package-lock.json 
+└── package.json
+README.md 
 ```
 
 ## ▶️ Como Rodar Localmente
@@ -37,7 +49,7 @@ Isso irá gerar a pasta `out/` contendo os arquivos HTML e assets prontos para h
 ## ☁️ Como Fazer o Deploy no AWS S3
 
 1. Acesse o S3 no Console da AWS
-2. Crie um bucket com nome único (ex: `blog-grupo-meninas`)
+2. Crie um bucket com nome único (ex: `blog-salespro-grupo-meninas`)
 3. Desative o bloqueio de acesso público
 4. Ative a **hospedagem de site estático**
    - Index document: `index.html`
@@ -45,7 +57,7 @@ Isso irá gerar a pasta `out/` contendo os arquivos HTML e assets prontos para h
 5. Faça o upload de **todo o conteúdo da pasta `/out`** (não da pasta em si)
 6. Garanta que os objetos estejam com ACL pública (leitura)
 7. Acesse a URL do bucket:  
-   `http://blog-grupo-meninas.s3-website-us-east-1.amazonaws.com/`
+   `http://blog-salespro-grupo-meninas.s3-website-us-east-1.amazonaws.com/`
 
 ## 💸 Estratégia de Custo
 
