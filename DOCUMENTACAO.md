@@ -41,6 +41,8 @@ Este projeto consiste em um blog estático criado com **Next.js**, publicado no 
 - Possível melhoria futura: integrar CDN com CloudFront para melhor performance.
 - Implementação de pipeline CI/CD para automação do deploy.
 
+
+> ⚠️ **Observação:** Por boas práticas de segurança e gerenciamento de custos na nuvem, o bucket S3 utilizado para publicação do blog foi removido após a conclusão da atividade. A publicação do site funcional foi devidamente registrada e está demonstrada no vídeo pitch enviado como parte da entrega.
 ---
 
 Desenvolvido pelo **Grupo SalesPRO**
