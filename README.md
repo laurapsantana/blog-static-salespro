@@ -71,13 +71,25 @@ Isso irá gerar a pasta `out/` contendo os arquivos HTML e assets prontos para h
 - O próprio bucket pode ser removido manualmente no console.
 - Como alternativa, é possível usar `AWS CLI` ou um template CloudFormation com `DeletionPolicy`.
 
-## 📽️ Pitch (sugestão de roteiro)
+## 📽️ Pitch do Projeto (Apresentação em Vídeo)
 
-1. Apresentação rápida do grupo
-2. Justificativa da escolha: site simples, direto, ótimo para testar deploy estático
-3. Demonstração da aplicação no ar
-4. Explicação da arquitetura e custos
-5. Considerações finais e melhorias futuras
+O vídeo pitch apresenta de forma objetiva os seguintes tópicos:
+
+Introdução e Apresentação do Projeto
+Breve explicação sobre o desafio proposto no AWS Learner Lab e o papel do grupo.
+
+Justificativa da Escolha da Aplicação
+Escolhemos o blog estático em Next.js por ser uma aplicação simples, funcional e ideal para demonstrar o processo de deploy em ambiente de nuvem, especialmente com o Amazon S3.
+
+Demonstração da Aplicação no Ar
+Exibição do blog funcionando, com navegação entre posts, conteúdo personalizado e deploy bem-sucedido via bucket S3.
+
+Arquitetura e Custos
+Explicação do fluxo do projeto: geração estática com next export, envio para o S3, ativação de hospedagem estática e configuração de permissões públicas.
+A solução não envolve servidores ou bancos de dados, mantendo o custo praticamente zero.
+
+Conclusão e Melhorias Futuras
+Reflexões sobre o aprendizado, boas práticas aplicadas (como limpeza de recursos) e sugestões de melhorias futuras, incluindo integração com CloudFront e automação de deploy.
 
 
 > ⚠️ **Observação:** Por boas práticas de segurança e gerenciamento de custos na nuvem, o bucket S3 utilizado para publicação do blog foi removido após a conclusão da atividade. A publicação do site funcional foi devidamente registrada e está demonstrada no vídeo pitch enviado como parte da entrega.
