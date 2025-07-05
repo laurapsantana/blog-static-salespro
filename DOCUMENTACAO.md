@@ -36,10 +36,20 @@ Este projeto consiste em um blog estático criado com **Next.js**, publicado no 
 
 ## 6. Lições Aprendidas e Melhorias Futuras
 
-- Entendimento prático do deploy estático na AWS.
-- Importância da configuração correta de permissões e políticas no S3.
-- Possível melhoria futura: integrar CDN com CloudFront para melhor performance.
-- Implementação de pipeline CI/CD para automação do deploy.
+- Aprendemos como gerar sites estáticos com Next.js e realizar deploy eficiente com o Amazon S3.
+- Compreendemos a importância da configuração correta de permissões públicas e documentos padrão para funcionamento da aplicação.
+- Observamos que, apesar do repositório sugerir o uso do Amazon CloudFront como CDN, optamos por **não utilizar o serviço neste projeto**. Isso foi feito por dois motivos principais:
+  - O endpoint público do bucket S3 já atende à proposta da atividade;
+  - O ambiente do AWS Learner Lab tem tempo e recursos limitados, o que nos levou a priorizar uma solução mais simples e direta.
+
+### Melhorias Futuras:
+
+- Integrar o **Amazon CloudFront** para:
+  - Ganhar suporte nativo a HTTPS;
+  - Obter melhor desempenho global com cache em bordas (CDN);
+  - Utilizar domínio personalizado e controle refinado de cache.
+- Implementar pipeline de CI/CD para automação de builds e uploads.
+- Adicionar páginas dinâmicas via CMS ou Markdown para novos posts.
 
 
 > ⚠️ **Observação:** Por boas práticas de segurança e gerenciamento de custos na nuvem, o bucket S3 utilizado para publicação do blog foi removido após a conclusão da atividade. A publicação do site funcional foi devidamente registrada e está demonstrada no vídeo pitch enviado como parte da entrega.
