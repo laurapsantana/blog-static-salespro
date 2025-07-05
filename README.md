@@ -1,6 +1,6 @@
 # Blog Estático - Grupo SalesPRO 🚀
 
-Este projeto é um blog estático criado com **Next.js** e publicado no **Amazon S3** como parte da Atividade Avaliativa Final da disciplina de Cloud Computing.
+Este projeto é um blog estático criado com **Next.js** e publicado no **Amazon S3** como parte da Atividade Avaliativa Final da disciplina de Computação em nuvem ll.
 
 ## 🛠️ Tecnologias Utilizadas
 - [Next.js](https://nextjs.org/) para geração do site estático
