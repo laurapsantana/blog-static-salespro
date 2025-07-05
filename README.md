@@ -79,6 +79,9 @@ Isso irá gerar a pasta `out/` contendo os arquivos HTML e assets prontos para h
 4. Explicação da arquitetura e custos
 5. Considerações finais e melhorias futuras
 
+
+> ⚠️ **Observação:** Por boas práticas de segurança e gerenciamento de custos na nuvem, o bucket S3 utilizado para publicação do blog foi removido após a conclusão da atividade. A publicação do site funcional foi devidamente registrada e está demonstrada no vídeo pitch enviado como parte da entrega.
+
 ---
 
 Desenvolvido pelo **Grupo SalesPRO**
